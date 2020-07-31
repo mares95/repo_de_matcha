@@ -12,6 +12,7 @@ h4{
     color: #46484c;
 }
 button{
+    border-radius: 7px;
     color: #fff;
     background-color: #025157;
 }
