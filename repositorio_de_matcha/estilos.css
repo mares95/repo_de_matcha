@@ -197,3 +197,198 @@ main {
   right: 0;
   background-color: #fffbf7;
 }
+
+.features{
+  margin-top: 50px;
+  background-color: #025157;
+  padding: 5% 10%;
+  height: 660px;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2,1fr);
+}
+
+.featured-card{
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  margin: 0 15px 30px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+.featured-card .featured-content{
+  text-align: left;
+  padding: 30px 20px 40px 40px;
+  flex: 2;
+
+}
+.featured-card .featured-content > * {
+  margin-bottom: 1rem; <!-- 1 rem igual a 16 pixeles>
+  margin-top: 0;
+
+
+}
+.featured-card .featured-content figure img{
+  width: 50px;
+}
+
+.featured-card .featured-content h3{
+  font-size: 24px;
+  color: #343434;
+  font-weight: 400;
+
+}
+
+.featured-card .featured-content p{
+  font-size: 16px;
+  color: #7e7e7e;
+  font-weight: 400;
+}
+
+.featured-content a{
+  font-size: 16px;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.features .featured-card .featured-image{
+  flex: 1;
+  width: 40%;
+  position: relative;
+  right: -50px;
+  height: 80%;
+}
+
+.features .featured-card .featured-image figure,
+.features .featured-card .featured-image img{
+
+}
+
+.features .featured-card .featured-image figure img{
+  width: 100px;
+}
+
+
+
+
+.Growing{
+  background-color: #a1d683;
+  padding: 5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Growing .overview {
+  flex: 2;
+  padding-right: 100px;
+}
+
+
+.Growing .overview h2{
+  font-family: "Alegreya", serif;
+  font-size: 51px;
+  line-height: 61px;
+  color: #025157;
+}
+
+.Growing .overview p{
+  color: #343434;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.Growing .overview button{
+  font-size: 14px;
+  padding: 12px 12px 6px 12px;
+  border-radius: 8px;
+  height: 45px;
+  margin-left: 0;
+}
+
+.Growing .overview img{
+  width: 500px;
+  max-width: 100%;
+}
+
+
+.Growing .card {
+  max-width: 370px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.Growing .card .partesuperior .personaje img{
+  width: 100%;
+  max-height: 16vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.Growing .card .partesuperior figure {
+  margin-top: 0;
+}
+.Growing .card .partesuperior {
+  position: relative;
+}
+
+.Growing .card .cuerpo .company {
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: #f9da73;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Growing .card .cuerpo .company img {
+  max-width: 75%;
+}
+
+.Growing .card .cuerpo,
+.Growing .card .parteinferior {
+  padding: 25px;
+}
+
+.Growing .card .cuerpo img {
+  display: flex;
+  align-items: center;
+  color: #828282;
+  width: 26px;
+  margin-right: 20px;
+}
+
+
+.Growing .card .cuerpo p {
+  margin-top: 0;
+}
+
+.Growing .card .parteinferior {
+  margin-bottom: 20px;
+  background-color: unset;
+  border-top: unset;
+}
+
+.Growing .card .parteinferior button{
+  display: block;
+  margin-left: 0;
+  border-radius: 5px;
+  font-size: 13;
+  font-weight: 600;
+  padding: 12px 20px;
+  width: 100%;
+}
+
+button{
+  background-color: #025157;
+  color: #fff;
+  border: none;
+}
