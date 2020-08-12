@@ -557,14 +557,3 @@ button{
   }
 }
 
-/* Dispositivos pequeños en vista landscape (horizontal)*/
-@media (min-width: 576px and max-width: 767px){}
-
-/* Dispositivos medianos (tablets)*/
-@media (min-width: 768px and max-width 991px){}
-
-/* Dispositivos grandes (desktops)*/
-@media (min-width: 992px and max-width:1199px){}
-
-/* Dispositivos extra grandes (monitors grandes,tvs)*/
-@media (min-width: 1200px){}
