@@ -505,3 +505,66 @@ button{
   font-weight: 600;
   
 }
+
+/* Dispositivos móviles en vista viewport (vertical)*/
+@media (max-width: 575px){
+  .navbar, .actions {
+    display: none;
+  }
+  main {
+    margin-top: 130px;
+  }
+  .section h1{
+    font-size: 30px;
+  }
+  .section input{
+    width: 190px;
+  }
+  .section > img{
+    width: 100%;
+  }
+  .go-to-action{
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 0 10px ;
+  }
+  .go-to-action .promo video{
+    width: 95%;
+  }
+
+  .go-to-action .publish input{
+    width: 165px;
+    height: 100%;
+  }
+  .go-to-action .publish button{
+    width: 120px;
+    height: 100%;
+  }
+
+  .features{
+    display: grid;
+    grid-template: repeat(4,1fr)/ 1fr;
+    height: auto;
+  }
+  .features .featured-card .featured-content{
+    height: 100%;
+    margin: 15px;
+    padding-bottom: 50px;
+  }
+
+  .features .featured-card .feature-image{
+    display: none;
+  }
+}
+
+/* Dispositivos pequeños en vista landscape (horizontal)*/
+@media (min-width: 576px and max-width: 767px){}
+
+/* Dispositivos medianos (tablets)*/
+@media (min-width: 768px and max-width 991px){}
+
+/* Dispositivos grandes (desktops)*/
+@media (min-width: 992px and max-width:1199px){}
+
+/* Dispositivos extra grandes (monitors grandes,tvs)*/
+@media (min-width: 1200px){}
